@@ -8,11 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class DoctorContoller {
-	@RequestMapping(value = "/")
-	public String home(HttpServletRequest req, Model model) {
-		
 	
-		return null;
-	}
 		
 }
