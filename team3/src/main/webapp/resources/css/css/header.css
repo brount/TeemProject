@@ -1,0 +1,866 @@
+#headerWrap {
+	position: relative;
+	width: 100%;
+	height: 128px;
+	background: url(/asan/images/common/bg_header.gif) 0 0 repeat-x;
+	z-index: 1014;
+}
+
+.innerWrap {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	z-index: 999;
+}
+
+.innerWrapBorder {
+	position: relative;
+	margin: 0 auto;
+	width: 1199px;
+	border-left: 1px solid #d6d6d6;
+}
+
+#asanWrap {
+	position: relative;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.bannerBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+	line-height: 1px;
+	vertical-align: top;
+	z-index: 1002;
+} /* 2014.07.11 추가 */
+.utillBtn {
+	position: absolute;
+	top: 14px;
+	right: 370px;
+	z-index: 1003;
+}
+
+.utillBtn li {
+	float: left;
+	margin-right: 24px;
+	height: 11px;
+	line-height: 0;
+}
+
+.utillBtn li.last {
+	margin-right: 0;
+}
+
+/* gnb */
+#gnb {
+	position: relative;
+	padding-top: 68px;
+	width: 100%;
+	z-index: 1001;
+}
+
+#gnb:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#gnb>ul {
+	position: relative;
+	float: right;
+	z-index: 1000;
+}
+
+#gnb>ul>li {
+	float: left;
+	text-align: center;
+}
+
+#gnb>ul>li>a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
+
+#gnb>ul>li>a:hover, #gnb>ul>li>a:focus {
+	text-decoration: none;
+}
+
+#gnb>ul>li.m01 {
+	width: 171px;
+}
+
+#gnb>ul>li.m02 {
+	width: 129px;
+}
+
+#gnb>ul>li.m03 {
+	width: 128px;
+}
+
+#gnb>ul>li.m04 {
+	width: 128px;
+}
+
+#gnb>ul>li.m05 {
+	width: 130px;
+}
+
+#gnb>ul>li.m06 {
+	width: 145px;
+}
+
+#gnb>ul>li.m07 {
+	width: 99px;
+	text-align: right;
+}
+
+#gnb>ul>li.last {
+	width: 225px;
+	text-align: right;
+}
+
+#gnb .depth2 {
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.snbSubNav {
+	width: 178px;
+	overflow: hidden;
+}
+
+.snbSubNav li {
+	padding: 8px 0 4px 21px;
+	width: 157px;
+	height: 26px;
+	border-bottom: 1px solid #ddd;
+} /* edit 20140828 */
+.snbSubNav li a {
+	color: #333;
+	font-weight: bold;
+}
+
+.snbSubNav li a:hover {
+	color: #0e787c;
+	text-decoration: underline
+}
+
+#gnb .depth2 {
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: left;
+}
+/* 의료진 진료과 서브GNB */
+.snbNav0 {
+	display: none;
+	position: absolute;
+	top: 34px;
+	left: -10px;
+	padding: 11px 6px 6px 6px;
+	width: 778px;
+	height: 370px;
+	background: url('/asan/images/common/bgSnb0.png') no-repeat left top;
+	z-index: 99999;
+	overflow: hidden;
+}
+
+.snbNav0 .snbSubNav {
+	float: left;
+	height: 353px;
+	border-right: 1px solid #ddd;
+}
+
+.snbNav0 .snbSubNav li.lastSubBtn {
+	border-bottom: 0;
+}
+
+.snbNav0 .snbSubCont {
+	float: left;
+	width: 580px;
+	overflow: hidden;
+}
+
+.snbNav0 .snbSubCont0 {
+	padding: 91px 0 0 74px;
+}
+
+.snbNav0 .snbSubCont0 label {
+	display: block;
+	color: #0e787c;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.snbNav0 .snbSubCont0 p {
+	padding-top: 6px;
+	font-size: 13px;
+	color: #333;
+}
+
+.snbNav0 .snbSubCont0 .snbSearchDiv {
+	margin-top: 17px;
+	margin-left: 1px;
+	padding: 3px;
+	width: 431px;
+	height: 34px;
+	background: #0e787c;
+	overflow: hidden;
+}
+
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpText {
+	float: left;
+	padding: 3px;
+	width: 347px;
+	height: 28px;
+	background: #fff;
+}
+
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpText #gnbDocSearchPlaceholder {
+	padding-top: 3px;
+	font-size: 13px;
+}
+
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpText input {
+	width: 340px;
+	height: 24px;
+	border: 0;
+}
+
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpBtn {
+	float: left;
+	padding: 3px 0 0 24px;
+}
+
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpBtn a {
+	font-weight: bold;
+	color: #fff;
+	font-size: 18px;
+}
+/* 이용안내 서브GNB */
+.snbNav1{display:none;position:absolute;top:34px;left:142px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb1.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav1 .snbSubNav{float:left;height:353px;border-right:1px solid #ddd;}
+.snbNav1 .snbSubCont{float:left;width:580px;overflow:hidden;}
+.snbNav1 .snbSubCont1{padding:38px 0 0 139px;}
+.snbNav1 .snbSubCont1 dl.phNumber{width:100%;overflow:hidden;}
+.snbNav1 .snbSubCont1 dl.phNumber dt{float:left;width:120px;height:50px;font-size:30px;color:#333;font-weight:bold;}
+.snbNav1 .snbSubCont1 dl.phNumber dd{float:left;width:249px;height:50px;font-size:30px;color:#0e787c;font-weight:bold;}
+
+.snbNav1 .snbSubCont1 dl.rsvInfo { clear:both; width:268px; border:1px solid #ddd; background:#f5f5f5; margin:10px 0 0; padding:10px 15px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dl { margin-top:10px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dt {font-size:15px;color:#0e787c;font-weight:bold; margin-bottom:10px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dd {font-size:15px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dd strong {display:inline-block; width:85px; padding:0 0 0 9px; background:url('/asan/images/common/bul_grayDot2x2.jpg') no-repeat 0 50%;}
+
+.snbNav1 .snbSubCont1 dl.mapBus{padding-top:24px;width:100%;overflow:hidden;}
+.snbNav1 .snbSubCont1 dl.mapBus dt{font-size:18px;color:#111;font-weight:bold;}
+.snbNav1 .snbSubCont1 dl.mapBus dd{font-size:13px;color:#333;font-weight:normal;}
+/* 건강정보 서브GNB */
+.snbNav2{display:none;position:absolute;top:34px;left:-275px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb2.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav2 .snbSubNav{float:right;width:158px;height:353px;border-left:1px solid #ddd;}
+.snbNav2 .snbSubNav li{width:auto;}
+.snbNav2 .snbSubCont{float:left;width:573px;overflow:hidden;}
+.snbNav2 .snbSubCont2{padding:20px 0 0 35px;width:538px;}
+.snbNav2 .snbSubCont2 .titSnb{}
+.snbNav2 .snbSubCont2 .titSnb strong{font-size:24px;color:#0e787c;}
+.snbNav2 .snbSubCont2 p{padding-top:5px;font-size:13px;color:#333;}
+.snbNav2 .snbSubCont2 .diseases{margin-top:10px;border-top:1px solid #ccc; background:url('/asan/images/common/bgSnb2_underline.gif') 0 0 repeat;}
+.snbNav2 .snbSubCont2 .diseases:after {content:""; clear:both; display:block;}
+.snbNav2 .snbSubCont2 .diseases li{float:left;width:76px; height:31px; padding-top:8px;text-align:center; background:url('/asan/images/common/bgLineSnbSubCont2.gif') no-repeat left 14px;}
+.snbNav2 .snbSubCont2 .diseases li.lLi{background:none;}
+.snbNav2 .snbSubCont2 .diseases li a{display:inline-block;padding:3px 0 4px;width:50px;font-size:13px;line-height:1;color:#333;font-weight:bold;}
+.snbNav2 .snbSubCont2 .diseases li a:hover{background:#666;color:#fff;text-decoration:none;}
+.snbNav2 .snbSubCont2 .conBox {position:relative; width:536px; height:55px; background:#f5f5f5; border:1px solid #ccc; margin-top:10px;}
+.snbNav2 .snbSubCont2 .conBox p {padding-left:15px; line-height:24px;}
+.snbNav2 .snbSubCont2 .btnBox{position:absolute; top:15px; right:15px;}
+.snbNav2 .snbSubCont2 .btnBox a{margin-left:2px;display:inline-block;padding:7px 10px;font-size:12px;line-height:1;font-weight:bold;background:#666;color:#fff;text-decoration:none;}
+.snbNav2 .snbSubCont2 .btnBox a:hover{text-decoration:underline;}
+/* 웹서비스 서브GNB */
+.snbNav3{display:none;position:absolute;top:34px;left:-190px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb3.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav3 .snbSubNav{float:right;height:353px;border-left:1px solid #ddd;}
+.snbNav3 .snbSubCont{float:left;width:525px;overflow:hidden;}
+.snbNav3 .snbSubCont3{padding:58px 0 0 94px;width:430px;overflow:hidden;}
+.snbNav3 .snbSubCont3 .issued{}
+.snbNav3 .snbSubCont3 .issued dt{padding-bottom:6px;font-size:24px;color:#0e787c;font-weight:bold;}
+.snbNav3 .snbSubCont3 .issued dd{font-size:13px;color:#666;}
+.snbNav3 .snbSubCont3 .issued dd.btnBox{margin-left:-2px; padding-top:6px;}
+.snbNav3 .snbSubCont3 .issued dd.btnBox a{margin-left:2px;display:inline-block;padding:7px 10px;font-size:12px;line-height:1;font-weight:bold;background:#666;color:#fff;text-decoration:none;}
+.snbNav3 .snbSubCont3 .issued dd.btnBox a:hover{text-decoration:underline;}
+.snbNav3 .snbSubCont3 .issued dt.issuedSub{padding-top:14px;}
+/* 의학교육 서브GNB */
+.snbNav4{display:none;position:absolute;top:34px;left:-60px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb4.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav4 .snbSubNav{float:right;height:352px;border-left:1px solid #ddd;}
+.snbNav4 .snbSubCont{float:left;width:587px;overflow:hidden;}
+.snbNav4 .snbSubCont4{padding:63px 54px 0 55px;}
+.snbNav4 .snbSubCont4 .snbBanner{height:133px; border:1px solid #ccc; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.snbNav4 .snbSubCont4 .snbBanner dt{padding:27px 30px 0; max-height:56px; overflow:hidden;}
+.snbNav4 .snbSubCont4 .snbBanner dt a{font-size:24px; line-height:28px; color:#0e787c;font-weight:bold;}
+.snbNav4 .snbSubCont4 .snbBanner dd{padding:5px 30px 0;font-size:13px;color:#333;}
+.snbNav4 .snbSubCont4 p{padding-top:17px;font-size:13px;color:#333;}
+/* 병원이야기 서브GNB */
+.snbNav5{display:none;position:absolute;top:34px;left:73px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb5.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav5 .snbSubNav{float:right;height:352px;border-left:1px solid #ddd;}
+.snbNav5 .snbSubCont{float:left;width:587px;}
+.snbNav5 .snbSubCont5{padding:53px 95px 0;}
+.snbNav5 .snbSubCont5 dl{padding-top:22px;}
+.snbNav5 .snbSubCont5 dl dt,
+.snbNav5 .snbSubCont5 dl dd a {display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.snbNav5 .snbSubCont5 dt{padding-top:2px; font-size:24px;color:#0e787c;font-weight:bold;}
+.snbNav5 .snbSubCont5 dd{padding:2px 0 0 2px;}
+.snbNav5 .snbSubCont5 dd a{padding-left:7px;font-size:13px;color:#333;background:url('/asan/images/ico/ico_green_arrow.gif') no-repeat 0 6px;}
+.snbNav5 .snbSubCont5 dl.sightDl{padding-top:31px;}
+/* 병원소개 서브GNB */
+.snbNav6{display:none;position:absolute;top:34px;left:158px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb6.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav6 .snbSubNav{float:right;height:352px;border-left:1px solid #ddd;}
+.snbNav6 .snbSubCont{float:left;width:587px;overflow:hidden;}
+.snbNav6 .snbSubCont6{padding:44px 78px 0 78px;width:auto;}
+.snbNav6 .snbSubCont6 dl{padding:31px 35px 0 50px; height:180px; border:1px solid #ccc; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.snbNav6 .snbSubCont6 dl dt{overflow:hidden; max-height:58px; font-size:24px; line-height:29px; color:#0e787c;font-weight:bold;}
+.snbNav6 .snbSubCont6 dl dd{overflow:hidden; max-height:40px; padding-top:15px;font-size:13px; line-height:20px; color:#333;}
+.snbNav6 .snbSubCont6 .btnBox{padding-top:20px;text-align:right;}
+.snbNav6 .snbSubCont6 .btnBox a{margin-left:2px;display:inline-block;padding:7px 10px;font-size:12px;line-height:1;font-weight:bold;background:#666;color:#fff;text-decoration:none;}
+.snbNav6 .snbSubCont6 .btnBox a:hover{text-decoration:underline;}
+@charset "utf-8";
+
+#asanMn {width:1198px; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+#asanMn:after {content:""; display:block; clear:both;}
+
+/* 메인 레이아웃 */
+.asanMn-column {float:left; height:1302px; border-top:1px solid transparent;}
+.asanMn-column.column1 {width:299px; border-right:1px solid #ddd;}
+.asanMn-column.column2 {width:299px; border-right:1px solid #ddd;}
+.asanMn-column.column3 {width:299px; border-right:1px solid #ddd;}
+.asanMn-column.column4 {width:298px;}
+
+.asanMn-section {clear:both; position:relative; float:left; width:100%; border-bottom:1px solid #ddd;}
+.asanMn-section.section0101 {height:459px;} /* 의료진예약 */
+.asanMn-section.section0102 {height:228px;} /* 진료예약 */
+.asanMn-section.section0103 {height:342px;} /* 진료과안내 */
+.asanMn-section.section0104 {height:269px;} /* 건강검진안내 */
+
+.asanMn-section.section0201 {height:424px;} /* 증상백과/질환백과 */
+.asanMn-section.section0202 {height:312px;} /* 건강TV */
+.asanMn-section.section0203 {height:169px;} /* 건강강좌 */
+.asanMn-section.section0204 {height:224px;} /* 약물정보 */
+.asanMn-section.section0205 {height:168px;} /* 학술행사 */
+
+.asanMn-section.section0301 {height:402px;} /* 오시는길/주차장안내 */
+.asanMn-section.section0302 {height:226px;} /* 전화번호안내 */
+.asanMn-section.section0303 {height:249px;} /* 둘러보기 */
+.asanMn-section.section0304 {height:241px;} /* 편의시설 */
+.asanMn-section.section0305 {height:179px;} /* 장례식장 */
+
+.asanMn-section.section0401 {height:258px;} /* 배너영역1 */
+.asanMn-section.section0401 .list {position:relative; padding:21px 16px 0 0; text-align:right;}
+.asanMn-section.section0401 .list button {overflow:hidden; margin:0; padding:0; border:none; background:transparent; cursor:pointer;}
+.asanMn-section.section0401 .list li.item {display:inline;}
+.asanMn-section.section0401 .list li.item .anchor {position:relative; width:12px; height:12px; vertical-align:top; z-index:3; background:url('/asan/images/main/banner_anchor_normal.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.item .thum {display:none; position:absolute; top:0; left:0; z-index:2;}
+.asanMn-section.section0401 .list li.control {position:relative; top:-1px; display:inline; margin-right:9px; vertical-align:top; z-index:3;}
+.asanMn-section.section0401 .list li.control button {vertical-align:top;}
+.asanMn-section.section0401 .list li.control .auto {width:8px; height:12px; background:url('/asan/images/main/banner_auto.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.control .stop {width:7px; height:12px; background:url('/asan/images/main/banner_stop.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.current .anchor {background:url('/asan/images/main/banner_anchor_active.png') 0 0 no-repeat;}
+.asanMn-section.section0401 .list li.current .thum {display:block;}
+
+.asanMn-section.section0402 {height:258px; border-bottom:none;} /* 배너영역2 */
+.asanMn-section.section0403 {height:258px; border-bottom:none;} /* 배너영역3 */
+.asanMn-section.section0404 {height:246px;} /* 고객커뮤니티 */
+.asanMn-section.section0405 {height:279px;} /* 주요메뉴 */
+
+/* 메인 컨텐츠 */
+#asanMn .title-big {margin:41px 0 55px 29px; height:78px; font-size:30px; font-weight:600; line-height:32px; color:#111; background:url('/asan/images/main/titleBig_bg.gif') bottom left no-repeat;}
+#asanMn .title-big .samll {display:inline-block; margin-top:-3px; font-size:22px; font-weight:normal; color:#666;}
+#asanMn .title {margin:24px 0 5px 30px; font-size:18px; line-height:22px; color:#111;}
+#asanMn .title a {color:#111;}
+#asanMn .text {margin:0 0 0 30px; font-size:13px; font-weight:600; line-height:16px; color:#666;}
+#asanMn .text a {color:#666; text-decoration:none;}
+
+#asanMn ul.buttonset {margin:20px 0 0 28px;}
+#asanMn ul.buttonset li {margin-top:5px;}
+#asanMn ul.buttonset li .button {display:inline-block; height:25px; padding:0 16px 0 15px; line-height:25px; font-size:13px; color:white; vertical-align:middle; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn ul.buttonset li .button:hover {text-decoration:underline;}
+#asanMn ul.buttonset li .button.sty1 {padding-right:35px; background:#ffa94c url('/asan/images/main/buttonset_sty1_bg.gif') top right no-repeat;} /* 오렌지색 */
+#asanMn ul.buttonset li .button.sty2 {background:#666;} /* 블랙 */
+
+#asanMn .section0101 {} /* 의료진예약 */
+#asanMn .section0101 .inner {display:block; border-top:1px solid #ddd; overflow:hidden; height:285px; background-position:left 176px; background-repeat:no-repeat; margin:0; padding:0;}
+#asanMn .section0101 .inner a { display:block; height:285px; margin-top:-24px;}
+#asanMn .section0101 .inner a:hover, 
+#asanMn .section0101 .inner a:focus,
+#asanMn .section0101 .inner a:active {text-decoration:none;}
+#asanMn .section0101 .inner h3 {margin:24px 0 5px 30px; padding:0; color:#0e787c; padding-top:24px;}
+#asanMn .section0102 {background:url('/asan/images/main/section0102_bg.png') bottom left no-repeat;} /* 진료예약 */
+#asanMn .section0102 h2.title a {color:#0e787c;}
+#asanMn .section0102.bg1 {background:url('/asan/images/main/section0102_bg.png') bottom left no-repeat;}
+#asanMn .section0102.bg2 {background:url('/asan/images/main/section0102_bg2.png') bottom left no-repeat;}
+#asanMn .section0102.bg3 {background:url('/asan/images/main/section0102_bg3.png') bottom left no-repeat;}
+#asanMn .section0102.bg4 {background:url('/asan/images/main/section0102_bg4.png') bottom left no-repeat;}
+#asanMn .section0102 .list {margin:22px 0 0 135px; font-size:13px; line-height:22px;}
+#asanMn .section0102 .list li {background:url('/asan/images/main/bul1.gif') 0 10px no-repeat; margin-bottom:6px;}
+#asanMn .section0102 .list li a {display:block; width:118px; height:22px; text-align:left; padding-left:5px; font-weight:600; font-size:12px; color:#fff; background:#666; border:1px solid #666;}
+#asanMn .section0102 .list li a:hover, 
+#asanMn .section0102 .list li a:focus,
+#asanMn .section0102 .list li a:active {color:#333; border:1px solid #666; background:#fff; text-decoration:none;}
+#asanMn .section0103 {background:url('/asan/images/main/section0103_bg.png') bottom right no-repeat;} /* 진료과안내 */
+#asanMn .section0103 .list {width:200px; margin:29px 0 0 29px;}
+#asanMn .section0103 .list:after {content:""; display:block; clear:both;}
+#asanMn .section0103 .list li {float:left; margin:0 10px 6px 0;}
+#asanMn .section0103 .list li a {float:left; width:88px; height:24px; text-align:center; font-weight:600; font-size:13px; line-height:22px; color:#333; border:1px solid #ccc; background:white; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0103 .list li a:hover,
+#asanMn .section0103 .list li a:focus,
+#asanMn .section0103 .list li a:active {color:white; border-color:#555; background:#555; text-decoration:none;}
+#asanMn .section0104 {background:url('/asan/images/main/section0104_bg.png') bottom right no-repeat;} /* 건강검진안내 */
+#asanMn .section0104 .healthTel {margin:10px 0 20px 30px; font-weight:600; font-size:18px; line-height:20px; color:#0e787c;}
+
+#asanMn .section0201 {background:url('/asan/images/main/section0201_bg.png') bottom right no-repeat;} /* 증상백과/질환백과 */
+#asanMn .section0201 .inner {overflow:hidden; height:250px;}
+#asanMn .section0201 .sty1 {width:100px;}
+#asanMn .section0201 .sty2 {width:82px;}
+#asanMn .section0202 {background:url('/asan/images/main/section0202_bg.png') bottom right no-repeat;} /* 건강TV */
+#asanMn .section0202 p.txt1 {margin:12px 0 0 30px; font-size:15px; font-weight:600; line-height:16px; color:#666;}
+#asanMn .section0202 p.txt2 {margin:5px 0 0 30px; font-size:13px; font-weight:600; line-height:16px; color:#666;}
+#asanMn .section0202 p.img {position:absolute; top:143px; left:79px;}
+#asanMn .section0203 {background:url('/asan/images/main/section0203_bg.png') bottom right no-repeat;} /* 건강강좌 */
+#asanMn .section0203 .list {margin:29px 0 0 29px;}
+#asanMn .section0203 .list:after {content:""; display:block; clear:both;}
+#asanMn .section0203 .list li {clear:both; float:left; margin:0 0 6px 0;}
+#asanMn .section0203 .list li a {float:left; width:109px; height:24px; text-align:center; font-weight:600; font-size:13px; line-height:22px; color:#333; border:1px solid #ccc; background:white; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0203 .list li a:hover,
+#asanMn .section0203 .list li a:focus,
+#asanMn .section0203 .list li a:active {color:white; border-color:#555; background:#555; text-decoration:none;}
+#asanMn .section0204 {} /* 약물정보 */
+#asanMn .section0205 {background:url('/asan/images/main/section0205_bg.png') bottom right no-repeat;} /* 학술행사 */
+#asanMn .section0205 .list {margin:29px 0 0 29px;}
+#asanMn .section0205 .list:after {content:""; display:block; clear:both;}
+#asanMn .section0205 .list li {clear:both; float:left; margin:0 0 6px 0;}
+#asanMn .section0205 .list li a {float:left; width:109px; height:24px; text-align:center; font-weight:600; font-size:13px; line-height:22px; color:#333; border:1px solid #ccc; background:white; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0205 .list li a:hover,
+#asanMn .section0205 .list li a:focus,
+#asanMn .section0205 .list li a:active {color:white; border-color:#555; background:#555; text-decoration:none;}
+
+#asanMn .section0301 {background:url('/asan/images/main/section0301_bg.png') bottom right no-repeat;} /* 오시는길/주차장안내 */
+#asanMn .section0301 .inner {overflow:hidden; height:228px;}
+#asanMn .section0301 .sty1 {width:110px;}
+#asanMn .section0301 .sty2 {width:74px;}
+#asanMn .section0302 {} /* 전화번호안내 */
+#asanMn .section0302 .tel {margin:0 0 20px 30px; font-weight:600; font-size:36px; line-height:40px; color:#0e787c;}
+#asanMn .section0302 .first { width:207px; height:95px; border:1px solid #ddd; background:#f5f5f5; margin:-10px 0 0 30px; padding:10px 15px 0 15px;}
+#asanMn .section0302 .first dt {font-size:13px; font-weight:600; color:#0e787c; margin-bottom:5px;}
+#asanMn .section0302 .first dd {font-size:13px; line-height:20px;}
+#asanMn .section0302 .first dd strong {display:inline-block; width:70px; padding:0 0 0 9px; background:url('/asan/images/common/bul_grayDot2x2.jpg') no-repeat 0 50%;}
+#asanMn .section0303 {} /* 둘러보기 */
+#asanMn .section0304 {} /* 편의시설 */
+#asanMn .section0305 {} /* 장례식장 */
+
+#asanMn .section0401 {} /* 배너영역1 */
+#asanMn .section0402 {} /* 배너영역2 */
+#asanMn .section0402 a:focus,
+#asanMn .section0402 a:active {position:relative; z-index:99999;}
+#asanMn .section0403 {} /* 배너영역3 */
+#asanMn .section0403 a:focus,
+#asanMn .section0403 a:active {position:relative; z-index:99999;}
+#asanMn .section0404 {} /* 고객커뮤니티 */
+#asanMn .section0404 .list {width:298px; height:227px; background:url('/asan/images/main/section0404_bg.gif') 0 0 no-repeat;}
+#asanMn .section0404 .list .grp {overflow:hidden; width:298px; height:119px; white-space:nowrap; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+#asanMn .section0404 .list .grp .title {margin-top:34px; margin-left:119px;}
+#asanMn .section0404 .list .grp .text {margin-left:119px;}
+#asanMn .section0404 .list .grp1 {}
+#asanMn .section0404 .list .grp2 {}
+#asanMn .section0405 {background:url('/asan/images/main/section0405_bg.gif') 0 0 no-repeat;} /* 주요메뉴 */
+#asanMn .section0405 .list {}
+#asanMn .section0405 .list li {height:69px; border-bottom:1px solid transparent;}
+#asanMn .section0405 .list li:last-child {margin-bottom:none;}
+#asanMn .section0405 .list li a {display:block; height:100%; padding-left:89px; line-height:69px; font-size:15px; font-weight:600; color:#111;}
+
+/* 뉴스소식/언론보도 */
+.asanMn-newsArea {height:125px; margin-top:-1px; border-top:1px solid #ddd;}
+.asanMn-newsAreaInner {width:1200px; height:100%; margin:0 auto;}
+.asanMn-news {position:relative; float:left; width:50%;}
+.moreTxt {position:absolute; left:56px; top:59px;}
+.moreTxt2 {position:absolute; left:50px; top:59px;}
+.moreTxt a, .moreTxt2 a {font-size:13px; color:#db330c;}
+.asanMn-news .title {position:absolute; top:27px; left:31px; font-size:18px; line-height:22px; color:#111;}
+.asanMn-news .title a {color:#111;}
+.asanMn-news .list {margin:23px 0 0 130px;}
+.asanMn-news .list li {background:url('/asan/images/main/bul2.gif') 0 12px no-repeat;}
+.asanMn-news .list li a {position:relative; display:block; width:430px; padding-left:9px; font-size:15px; line-height:26px; color:#666;}
+.asanMn-news .list li a .txt {display:block; width:330px; font-weight:600;color:#333;}
+.asanMn-news .list li a .txt .icon {vertical-align:baseline;}
+.asanMn-news .list li a .date {position:absolute; top:0; right:0; color:#333; font-size:13px; font-weight:600;}
+#asanWrap { position:relative; width:100%; min-width:1200px;}
+#headerWrap { position:relative; width:100%; height:128px; background:url(/asan/images/common/bg_header.gif) 0 0 repeat-x; z-index:1014;}
+#footerWrap { width:100%; height:307px;background:#7e8389;}
+
+.innerWrap { position:relative; margin:0 auto; width:1200px;z-index:999;}
+.innerWrapBorder { position:relative; margin:0 auto; width:1199px; border-left:1px solid #d6d6d6;}
+
+/* header */
+h1.logo { position:absolute; top:64px; left:0;z-index:1002;}
+/* IE8 only */
+@media \0screen {
+    h1.logo { position:absolute; top:62px; left:0;}
+}
+
+.bannerBtn {position:absolute; top:0; left:0; text-align:left;line-height:1px;vertical-align:top; z-index:1002;} /* 2014.07.11 추가 */
+.utillBtn { position:absolute; top:14px; right:370px; z-index:1003;}
+.utillBtn li { float:left; margin-right:24px; height:11px; line-height:0;}
+.utillBtn li.last { margin-right:0;}
+
+.language { position:absolute; top:6px; right:0; z-index:1003;}
+.language li { float:left;}
+
+/* topBannerWrap */
+#topBnrOpen {display:none;} /* 2014.07.11 display:none; 추가 */
+#topBannerWrap {display:none;  width:100%; background:#457b7c url(/asan/images/common/topbnnr_bg.png) 0 0 repeat;}
+#topBannerWrap.skin1 {background-color:#457b7c;}
+#topBannerWrap.skin1 #topBnr {background:url(/asan/images/common/topBnr_skin1.png) 0 0 no-repeat;}
+#topBannerWrap.skin2 {background-color:#426f94;}
+#topBannerWrap.skin2 #topBnr {background:url(/asan/images/common/topBnr_skin2.png) 0 0 no-repeat;}
+#topBannerWrap.skin3 {background-color:#6c6795;}
+#topBannerWrap.skin3 #topBnr {background:url(/asan/images/common/topBnr_skin3.png) 0 0 no-repeat;}
+#topBannerWrap.skin4 {background-color:#4c7263;}
+#topBannerWrap.skin4 #topBnr {background:url(/asan/images/common/topBnr_skin4.png) 0 0 no-repeat;}
+#topBannerWrap.skin5 {background-color:#6b6c49;}
+#topBannerWrap.skin5 #topBnr {background:url(/asan/images/common/topBnr_skin5.png) 0 0 no-repeat;}
+
+#topBannerWrap #topBnr {position:relative; width:1200px; height:210px; margin:0 auto;}
+#topBannerWrap .list {position:relative; padding-top:0; text-align:center;}
+#topBannerWrap .list li.item {display:inline-block; margin-right:1px; vertical-align:top; color:white;}
+#topBannerWrap .list li.item .anchor {overflow:hidden; width:11px; height:11px; margin:0; padding:0; border:0; cursor:pointer; vertical-align:top; background:url(/asan/images/common/topbnnr_anchor_normal.png) 0 0 no-repeat;}
+#topBannerWrap .list li.item .thum {display:none; position:absolute; top:40px; left:334px; width:696px; text-align:left;}
+#topBannerWrap .list li.item .thum .tit,
+#topBannerWrap .list li.item .thum .txt {display:block; color:white;}
+#topBannerWrap .list li.item .thum .tit {overflow:hidden; white-space:nowrap; text-overflow:ellipsis; margin-bottom:11px; font-size:24px; line-height:30px;}
+#topBannerWrap .list li.item .thum .txt {overflow:hidden; height:48px; margin-bottom:12px; font-size:15px; line-height:24px;}
+#topBannerWrap .list li.item a.btn-gotoDetail {display:inline-block; padding-right:24px; color:white; font-size:15px; line-height:24px; background:url(/asan/images/common/topbnnr_bul.png) 100% 5px no-repeat;}
+
+#topBannerWrap .list li.control {display:inline; margin-left:11px; vertical-align:top;}
+#topBannerWrap .list li.control button.stop,
+#topBannerWrap .list li.control button.auto {overflow:hidden; width:10px; height:11px; margin:0 0 0 3px; padding:0; border:0; cursor:pointer; vertical-align:top;}
+#topBannerWrap .list li.control button.stop {background:url(/asan/images/common/topbnnr_pause.png) 0 0 no-repeat;}
+#topBannerWrap .list li.control button.auto {background:url(/asan/images/common/topbnnr_auto.png) 0 0 no-repeat;}
+
+#topBannerWrap .list li.current .anchor {width:31px; background:url(/asan/images/common/topbnnr_anchor_active.png) 0 0 no-repeat;}
+#topBannerWrap .list li.current .thum {display:block;}
+#topBannerWrap p.close {position:absolute; bottom:18px; right:0; font-size:13px; line-height:18px; color:white;}
+#topBannerWrap p.close img {vertical-align:middle;}
+#topBannerWrap p.close a {color:white;}
+#topBannerWrap p.close #topBnrClose-notoday {display:inline-block; margin-right:5px;}
+#topBannerWrap p.close #topBnrClose-notoday input {vertical-align:middle;}
+#topBannerWrap p.close #topBnrClose-notoday label {display:inline-block;}
+#topBannerWrap p.close #topBnrClose {}
+
+
+/* 통합검색 */
+.totalSearchFormSec { position:relative; width:650px; padding-top:60px; margin:0 auto;}
+.totalSearchFormSec form {display:block; width:700px;}
+.totalSearchFormSec .totalSearchDl:after { content:""; display:block; clear:both;}
+.totalSearchFormSec .totalSearchDl {float:left; margin-right:7px;}
+.totalSearchFormSec .totalSearchDl dt { float:left;}
+.totalSearchFormSec .totalSearchDl dd { float:left;}
+.totalSearchFormSec .totalSearchDl .SearchBox { width:445px; height:28px; padding:8px 0; overflow:hidden; border:3px solid #0e787c; background:#fff;}
+.totalSearchFormSec .totalSearchDl .SearchBox li { float:left;}
+.totalSearchFormSec .totalSearchDl .SearchBox li input { height:26px; border:0; margin-left:15px; font-size:15px; line-height:26px; vertical-align:middle;}
+.totalSearchFormSec .totalSearchDl .searchIcon { height:25px; margin:0px 0 0 18px; padding-right:14px; border-right:1px solid #dadada;}
+.totalSearchFormSec .totalSearchDl .searchIcon span { position:relative; top:3px; width:23px; height:22px; display:inline-block; background:url('/asan/images/ico/ico_search.png') no-repeat left center;}
+.totalSearchFormSec .totalSearchDl .searchBtn { padding:17px 22px 16px 23px !important; line-height:15px; border:1px solid #0f7a7e; background:#0e787c;}
+.totalSearchFormSec .totalSearchDl .searchBtn a { color:#fff; font-weight:bold;}
+.totalSearchFormSec .reSearchFormSec {float:left; margin-top:15px;}
+/* gnb */
+#gnb { position:relative; padding-top:68px; width:100%;z-index:1001;}
+#gnb:after { content:""; display:block; clear:both;}
+#gnb > ul { position:relative;float:right; z-index:1000;}
+#gnb > ul > li {float:left; text-align:center;}
+#gnb > ul > li > a { font-size:18px; font-weight:bold; color:#333;}
+#gnb > ul > li > a:hover,
+#gnb > ul > li > a:focus { text-decoration:none;}
+#gnb > ul > li.m01 {width:171px;}
+#gnb > ul > li.m02 {width:129px;}
+#gnb > ul > li.m03 {width:128px;}
+#gnb > ul > li.m04 {width:128px;}
+#gnb > ul > li.m05 {width:130px;}
+#gnb > ul > li.m06 {width:145px;}
+#gnb > ul > li.m07 {width:99px; text-align:right;}
+#gnb > ul > li.last {width:225px; text-align:right;}
+
+.snbSubNav{width:178px;overflow:hidden;}
+.snbSubNav li{padding:8px 0 4px 21px;width:157px;height:26px;border-bottom:1px solid #ddd;} /* edit 20140828 */
+.snbSubNav li a{color:#333;font-weight:bold;}
+.snbSubNav li a:hover{color:#0e787c;text-decoration:underline}
+
+#gnb .depth2 {-ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;text-align:left;}
+
+/* 의료진 진료과 서브GNB */
+.snbNav0{display:none;position:absolute;top:34px;left:-10px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb0.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav0 .snbSubNav{float:left;height:353px;border-right:1px solid #ddd;}
+.snbNav0 .snbSubNav li.lastSubBtn{border-bottom:0;}
+.snbNav0 .snbSubCont{float:left;width:580px;overflow:hidden;}
+.snbNav0 .snbSubCont0{padding:91px 0 0 74px;}
+.snbNav0 .snbSubCont0 label{display:block;color:#0e787c;font-weight:bold;font-size:24px;}
+.snbNav0 .snbSubCont0 p{padding-top:6px;font-size:13px;color:#333;}
+.snbNav0 .snbSubCont0 .snbSearchDiv{margin-top:17px; margin-left:1px; padding:3px;width:431px;height:34px;background:#0e787c;overflow:hidden;}
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpText {float:left;padding:3px;width:347px;height:28px;background:#fff;}
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpText #gnbDocSearchPlaceholder {padding-top:3px; font-size:13px;}
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpText input{width:340px;height:24px;border:0;}
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpBtn{float:left;padding:3px 0 0 24px;}
+.snbNav0 .snbSubCont0 .snbSearchDiv .inpBtn a{font-weight:bold;color:#fff;font-size:18px;}
+/* 이용안내 서브GNB */
+.snbNav1{display:none;position:absolute;top:34px;left:142px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb1.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav1 .snbSubNav{float:left;height:353px;border-right:1px solid #ddd;}
+.snbNav1 .snbSubCont{float:left;width:580px;overflow:hidden;}
+.snbNav1 .snbSubCont1{padding:38px 0 0 139px;}
+.snbNav1 .snbSubCont1 dl.phNumber{width:100%;overflow:hidden;}
+.snbNav1 .snbSubCont1 dl.phNumber dt{float:left;width:120px;height:50px;font-size:30px;color:#333;font-weight:bold;}
+.snbNav1 .snbSubCont1 dl.phNumber dd{float:left;width:249px;height:50px;font-size:30px;color:#0e787c;font-weight:bold;}
+
+.snbNav1 .snbSubCont1 dl.rsvInfo { clear:both; width:268px; border:1px solid #ddd; background:#f5f5f5; margin:10px 0 0; padding:10px 15px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dl { margin-top:10px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dt {font-size:15px;color:#0e787c;font-weight:bold; margin-bottom:10px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dd {font-size:15px;}
+.snbNav1 .snbSubCont1 dl.rsvInfo dd strong {display:inline-block; width:85px; padding:0 0 0 9px; background:url('/asan/images/common/bul_grayDot2x2.jpg') no-repeat 0 50%;}
+
+.snbNav1 .snbSubCont1 dl.mapBus{padding-top:24px;width:100%;overflow:hidden;}
+.snbNav1 .snbSubCont1 dl.mapBus dt{font-size:18px;color:#111;font-weight:bold;}
+.snbNav1 .snbSubCont1 dl.mapBus dd{font-size:13px;color:#333;font-weight:normal;}
+/* 건강정보 서브GNB */
+.snbNav2{display:none;position:absolute;top:34px;left:-275px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb2.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav2 .snbSubNav{float:right;width:158px;height:353px;border-left:1px solid #ddd;}
+.snbNav2 .snbSubNav li{width:auto;}
+.snbNav2 .snbSubCont{float:left;width:573px;overflow:hidden;}
+.snbNav2 .snbSubCont2{padding:20px 0 0 35px;width:538px;}
+.snbNav2 .snbSubCont2 .titSnb{}
+.snbNav2 .snbSubCont2 .titSnb strong{font-size:24px;color:#0e787c;}
+.snbNav2 .snbSubCont2 p{padding-top:5px;font-size:13px;color:#333;}
+.snbNav2 .snbSubCont2 .diseases{margin-top:10px;border-top:1px solid #ccc; background:url('/asan/images/common/bgSnb2_underline.gif') 0 0 repeat;}
+.snbNav2 .snbSubCont2 .diseases:after {content:""; clear:both; display:block;}
+.snbNav2 .snbSubCont2 .diseases li{float:left;width:76px; height:31px; padding-top:8px;text-align:center; background:url('/asan/images/common/bgLineSnbSubCont2.gif') no-repeat left 14px;}
+.snbNav2 .snbSubCont2 .diseases li.lLi{background:none;}
+.snbNav2 .snbSubCont2 .diseases li a{display:inline-block;padding:3px 0 4px;width:50px;font-size:13px;line-height:1;color:#333;font-weight:bold;}
+.snbNav2 .snbSubCont2 .diseases li a:hover{background:#666;color:#fff;text-decoration:none;}
+.snbNav2 .snbSubCont2 .conBox {position:relative; width:536px; height:55px; background:#f5f5f5; border:1px solid #ccc; margin-top:10px;}
+.snbNav2 .snbSubCont2 .conBox p {padding-left:15px; line-height:24px;}
+.snbNav2 .snbSubCont2 .btnBox{position:absolute; top:15px; right:15px;}
+.snbNav2 .snbSubCont2 .btnBox a{margin-left:2px;display:inline-block;padding:7px 10px;font-size:12px;line-height:1;font-weight:bold;background:#666;color:#fff;text-decoration:none;}
+.snbNav2 .snbSubCont2 .btnBox a:hover{text-decoration:underline;}
+/* 웹서비스 서브GNB */
+.snbNav3{display:none;position:absolute;top:34px;left:-190px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb3.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav3 .snbSubNav{float:right;height:353px;border-left:1px solid #ddd;}
+.snbNav3 .snbSubCont{float:left;width:525px;overflow:hidden;}
+.snbNav3 .snbSubCont3{padding:58px 0 0 94px;width:430px;overflow:hidden;}
+.snbNav3 .snbSubCont3 .issued{}
+.snbNav3 .snbSubCont3 .issued dt{padding-bottom:6px;font-size:24px;color:#0e787c;font-weight:bold;}
+.snbNav3 .snbSubCont3 .issued dd{font-size:13px;color:#666;}
+.snbNav3 .snbSubCont3 .issued dd.btnBox{margin-left:-2px; padding-top:6px;}
+.snbNav3 .snbSubCont3 .issued dd.btnBox a{margin-left:2px;display:inline-block;padding:7px 10px;font-size:12px;line-height:1;font-weight:bold;background:#666;color:#fff;text-decoration:none;}
+.snbNav3 .snbSubCont3 .issued dd.btnBox a:hover{text-decoration:underline;}
+.snbNav3 .snbSubCont3 .issued dt.issuedSub{padding-top:14px;}
+/* 의학교육 서브GNB */
+.snbNav4{display:none;position:absolute;top:34px;left:-60px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb4.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav4 .snbSubNav{float:right;height:352px;border-left:1px solid #ddd;}
+.snbNav4 .snbSubCont{float:left;width:587px;overflow:hidden;}
+.snbNav4 .snbSubCont4{padding:63px 54px 0 55px;}
+.snbNav4 .snbSubCont4 .snbBanner{height:133px; border:1px solid #ccc; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.snbNav4 .snbSubCont4 .snbBanner dt{padding:27px 30px 0; max-height:56px; overflow:hidden;}
+.snbNav4 .snbSubCont4 .snbBanner dt a{font-size:24px; line-height:28px; color:#0e787c;font-weight:bold;}
+.snbNav4 .snbSubCont4 .snbBanner dd{padding:5px 30px 0;font-size:13px;color:#333;}
+.snbNav4 .snbSubCont4 p{padding-top:17px;font-size:13px;color:#333;}
+/* 병원이야기 서브GNB */
+.snbNav5{display:none;position:absolute;top:34px;left:73px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb5.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav5 .snbSubNav{float:right;height:352px;border-left:1px solid #ddd;}
+.snbNav5 .snbSubCont{float:left;width:587px;}
+.snbNav5 .snbSubCont5{padding:53px 95px 0;}
+.snbNav5 .snbSubCont5 dl{padding-top:22px;}
+.snbNav5 .snbSubCont5 dl dt,
+.snbNav5 .snbSubCont5 dl dd a {display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.snbNav5 .snbSubCont5 dt{padding-top:2px; font-size:24px;color:#0e787c;font-weight:bold;}
+.snbNav5 .snbSubCont5 dd{padding:2px 0 0 2px;}
+.snbNav5 .snbSubCont5 dd a{padding-left:7px;font-size:13px;color:#333;background:url('/asan/images/ico/ico_green_arrow.gif') no-repeat 0 6px;}
+.snbNav5 .snbSubCont5 dl.sightDl{padding-top:31px;}
+/* 병원소개 서브GNB */
+.snbNav6{display:none;position:absolute;top:34px;left:158px;padding:11px 6px 6px 6px;width:778px;height:370px;background:url('/asan/images/common/bgSnb6.png') no-repeat left top;z-index:99999;overflow:hidden;}
+.snbNav6 .snbSubNav{float:right;height:352px;border-left:1px solid #ddd;}
+.snbNav6 .snbSubCont{float:left;width:587px;overflow:hidden;}
+.snbNav6 .snbSubCont6{padding:44px 78px 0 78px;width:auto;}
+.snbNav6 .snbSubCont6 dl{padding:31px 35px 0 50px; height:180px; border:1px solid #ccc; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.snbNav6 .snbSubCont6 dl dt{overflow:hidden; max-height:58px; font-size:24px; line-height:29px; color:#0e787c;font-weight:bold;}
+.snbNav6 .snbSubCont6 dl dd{overflow:hidden; max-height:40px; padding-top:15px;font-size:13px; line-height:20px; color:#333;}
+.snbNav6 .snbSubCont6 .btnBox{padding-top:20px;text-align:right;}
+.snbNav6 .snbSubCont6 .btnBox a{margin-left:2px;display:inline-block;padding:7px 10px;font-size:12px;line-height:1;font-weight:bold;background:#666;color:#fff;text-decoration:none;}
+.snbNav6 .snbSubCont6 .btnBox a:hover{text-decoration:underline;}
+
+/*
+
+
+
+ gnb서브 화살표 위치
+#gnb > ul.frontNavi li.m01 > .depth2 span.arrow { left:360px;}
+#gnb > ul.frontNavi li.m02 > .depth2 span.arrow { left:510px;}
+#gnb > ul.frontNavi li.m03 > .depth2 span.arrow { left:635px;}
+#gnb > ul.frontNavi li.m04 > .depth2 span.arrow { right:450px;}
+#gnb > ul.frontNavi li.m05 > .depth2 span.arrow { right:320px;}
+#gnb > ul.frontNavi li.m06 > .depth2 span.arrow { right:185px;}
+#gnb > ul.frontNavi li.m07 > .depth2 span.arrow { right:45px;}
+
+#gnb ul > li > .depth2 { display:none; position:absolute; top:30px; left:-15px; height:320px; width:1230px; height:320px; background:url(/asan/images/common/bg_gnbArea.png) 0 bottom no-repeat; z-index:1000;}
+#gnb ul > li > .depth2 span.arrow { position:absolute; top:12px; width:13px; height:7px; background:url('/asan/images/ico/ico_gnbArrow.png') 0 0 no-repeat;}
+#gnb ul > li > .depth2 .obj { position:absolute; bottom:37px; left:55px;}
+#gnb ul > li > .depth2 ul.snb { padding:32px 0 0 400px; width:700px;}
+#gnb ul > li > .depth2 ul.snb li { width:152px; line-height:36px; border-right:1px solid #eee; border-bottom:1px solid #eee;}
+#gnb ul > li > .depth2 ul.snb li a { font-size:14px; letter-spacing:-1px;}
+#gnb ul > li > .depth2 ul.snb li a:hover,
+#gnb ul > li > .depth2 ul.snb li a:focus { text-decoration:none;}
+#gnb ul > li > .depth2 ul.snb li.current a { padding-bottom:3px; color:#00696d; border-bottom:1px solid #00696d;}
+#gnb ul > li > .depth2 ul.snb li.last { border-bottom:none;}
+#gnb ul > li > .depth2 ul.snb li .snb_desc { display:none;}
+#gnb ul > li > .depth2 ul.snb li.current .snb_desc { display:block; position:absolute; left:550px; top:35px; padding-left:50px; width:497px;}
+#gnb ul > li > .depth2 ul.snb li.current .snb_desc strong { display:block; margin-bottom:12px; color:#00696d; font-size:18px; letter-spacing:-1px;}
+#gnb ul > li > .depth2 ul.snb li.current .snb_desc img { display:block; float:left; width:230px;}
+#gnb ul > li > .depth2 ul.snb li.current .snb_desc dl { float:left; width:250px; margin-left:15px;}
+#gnb ul > li > .depth2 ul.snb li.current .snb_desc dl dt { margin-bottom:15px; line-height:18px; font-size:14px; letter-spacing:-1px; font-weight:bold;}
+#gnb ul > li > .depth2 ul.snb li.current .snb_desc dl dd { line-height:16px; font-size:12px; letter-spacing:-1px; color:#333; font-weight:bold;}
+*/
+/* serviceWrap */
+.serviceWrap { position:relative; width:100%; height:49px;/*  border-bottom:1px solid #e3e3e3; */ z-index:1000;}
+.quickMenu { position:absolute; top:0; width:452px; z-index:1;}
+.quickMenu li { float:left; margin-right:1px;}
+.quickMenu li a { display:block; padding:16px 0 0 24px; width:126px; height:33px; font-size:16px; font-weight:bold; line-height:1; color:#fff;}
+.quickMenu li.login { background:url(/asan/images/btn/btn_headerBt01.gif) 0 50% no-repeat;}
+.quickMenu li.myChart { background:url(/asan/images/btn/btn_headerBt02.gif) 0 50% no-repeat;}
+.quickMenu li.reservation { margin-right:0; background:url(/asan/images/btn/btn_headerBt03.gif) 0 50% no-repeat;}
+
+.searchBar { position:absolute; right:0; width:598px; height:49px; border-left:1px solid #e3e3e3; border-right:1px solid #e3e3e3; z-index:1;}
+.searchBar .searchBtn { position:absolute; top:13px; right:15px;}
+#searchDesc { position:absolute; top:13px; left:30px; font-size:14px; color:#999; font-weight:bold;}
+.searchBar .searchInput { padding-left:30px; width:460px; line-height:45px; height:45px; font-size:18px; font-weight:bold; color:#333; border:0 none;}
+.searchBar .btnArw  { display:none;}
+.searchBar .autoName {position:absolute;top:49px;left:-1px;width:598px;border:1px solid #cccece;background:#fff;}
+.searchBar .autoName .word {padding:22px 30px 30px 30px;}
+.searchBar .autoName .foot {background:#ecf1f1;text-align:right;}
+.searchBar .autoName .foot a {display:block;padding:10px 9px;color:#333;font-size:12px;line-height:15px;}
+
+.searchBarOver { position:absolute; right:0; width:592px; height:68px; border:3px solid #a4acab; background:#fff; z-index:99;}
+.searchBarOver .searchBtn { position:absolute; top:24px; right:22px;}
+.searchBarOver .searchInput { padding-left:28px; width:460px; height:65px; font-size:24px; color:#333; line-height:65px; border:none;}
+.searchBarOver .btnArw { position:absolute; right:69px; top:26px; height:18px; background:url(/asan/images/common/bg_bar02.gif) right 0 no-repeat;}
+.searchBarOver .btnArw a img { padding:6px 21px 0 0;}
+.searchBarOver .autoName { position:absolute; top:71px; left:-3px; width:596px; border:1px solid #d0d2d2; border-top:none; background:#fff;}
+.searchBarOver .autoName ul.word { padding:15px 0 30px 29px;}
+.searchBarOver .autoName ul.word li { line-height:30px; font-size:18px; color:#000;}
+.searchBarOver .autoName ul.word li .active { color:#db330c;}
+.searchBarOver .autoName .foot { width:100%; height:38px; background:#ecf1f1;}
+.searchBarOver .autoName .foot p { padding:10px 9px 0 0; text-align:right;}
+
+
+/* innerContent */
+#innerContent { background:url(/asan/images/common/bg_locShadow.gif) 0 0 repeat-x;}
+.location { width:100%; height:41px; border-bottom:1px solid #e3e3e3;}
+.location ul { float:right;}
+.location ul li { float:left; line-height:41px; font-size:14px; font-weight:bold; color:#333;}
+.location ul li.home { width:52px; text-indent:-10000px; background:url(/asan/images/ico/ico_home.gif) 0 center no-repeat;}
+.location ul li.depth { padding:0 20px 0 39px; background:url(/asan/images/common/bg_location.png) 0 0 no-repeat;}
+.location ul li.current { padding-right:0;}
+
+.newLocation { position:absolute; top:20px; right:0; z-index:995;}
+/* IE8 only */
+@media \0screen {
+    .newLocation { position:absolute; top:18px; right:0; z-index:995;}
+}
+
+.newLocation span { display:inline-block; font-size:13px; line-height:13px;}
+.newLocation span.home { width:21px; vertical-align:top; padding-top:1px; *padding-top:5px;}
+.newLocation span.depth { padding:0 10px 0 15px; background:url(/asan/images/common/bg_newLocation.gif) 0 center no-repeat;}
+.newLocation span.current { padding-right:0;}
+
+/* lnb */
+#lnb { position:relative; padding-top:33px; float:left; width:218px;}
+#lnb h2.lnbTitle { padding:10px 28px 23px 0; text-align:right; font-size:26px; font-weight:bold; color:#267376; background:url(/asan/images/common/bg_lnbTitleBar.gif) 159px 1px no-repeat;}
+#lnb ul.depth1 { border-top:1px solid #d6d6d6;}
+#lnb ul.depth1 > li {}
+#lnb ul.depth1 > li > a { display:block; padding-right:29px; text-align:right; padding-top:17px; height:32px; line-height:1; font-size:18px; color:#333; font-weight:bold; border-bottom:1px solid #d6d6d6;}
+#lnb ul.depth1 > li:first-child > a {padding-top:17px;height:32px}
+/* #lnb ul.depth1 > li > a:hover,
+#lnb ul.depth1 > li > a:focus, */
+#lnb ul.depth1 > li.current > a { color:#fff; text-decoration:none; padding-top:17px;height:32 px; background:#0e787c; border-bottom:1px solid #0e787c;}
+#lnb ul.depth1 > li > .depth2 { display:none; padding:20px 29px 22px 0; border-top:1px solid #d6d6d6; background:#f2f2f2; border-bottom:1px solid #d6d6d6;}
+#lnb ul.depth1 > li > .show { display:block;}
+#lnb ul.depth1 > li > .depth2 > li > a { display:block; text-align:right; line-height:32px; font-size:15px; color:#333; font-weight:bold;}
+/* #lnb ul.depth1 > li > .depth2 > li > a:hover,
+#lnb ul.depth1 > li > .depth2 > li > a:focus, */
+#lnb ul.depth1 > li > .depth2 > li.current > a { color:#0e787c; text-decoration:underline;}
+
+#lnb .lnbTelBox { padding:17px 0 17px 31px; margin:40px 15px 0; border:1px solid #ddd;}
+#lnb .lnbTelBox li{ font-weight:bold; font-size:15px; }
+#lnb .lnbTelBox .lnbTelText { margin-top:3px; font-size:24px; line-height:25px;}
+@charset "utf-8";
+/*
+ * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess v4
+ */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/asan/css/google_fonts/NanumGothic-Regular.eot);
+  src: url(/asan/css/google_fonts/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(/asan/css/google_fonts/NanumGothic-Regular.woff2) format('woff2'),
+       url(/asan/css/google_fonts/NanumGothic-Regular.woff) format('woff'),
+       url(/asan/css/google_fonts/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/asan/css/google_fonts/NanumGothic-Bold.eot);
+  src: url(/asan/css/google_fonts/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(/asan/css/google_fonts/NanumGothic-Bold.woff2) format('woff2'),
+       url(/asan/css/google_fonts/NanumGothic-Bold.woff) format('woff'),
+       url(/asan/css/google_fonts/NanumGothic-Bold.ttf) format('truetype');
+}
+
+/* BLUEGRID RESET CSS ver 1.0(http://uid-lab.bluegrid.kr/entry/resetcss) :: edit by won yong bong (A.K.A dstyle) | License: none (public domain) */
+/* eric meyer Reset CSS v2.0(http://meyerweb.com/eric/tools/css/reset/) | License: none (public domain) */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent;}/*font-size:100%*/
+body { line-height:1; font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana; font-size:15px; -webkit-text-size-adjust: none; font-weight:400 !important;}/**/
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section {display:block;} /* delete vertical-align */
+body,html { width:100%; background:#fff;}
+ol,ul,li { list-style:none;}
+blockquote,q { quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after { content:''; content:none;}
+table { border-collapse:collapse; border-spacing:0;}
+dt { display:block;}
+a { cursor:pointer;}
+hr { display:none;}
+input, select, img { vertical-align:middle;}
+input, select, textarea { font-family:'Nanum Gothic','나눔고딕','돋움',Dotum,'굴림',Gulim,Tahoma, Geneva, sans-serif,verdana;}
+
+/* Web Content Accessibility TTS(Text To Speech) Code */
+.tts { position:absolute; width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden;}
+caption, legend { visibility:hidden; width:0; height:0; line-height:0; font-size:0; overflow:hidden;}
+
+/* add Project Leaders Common CSS */
+body,input,select,textarea { color:#333; line-height:1.5;} /* font Setup Code */
+a { color:#333; text-decoration:none;} /* anchor (normal) Setup Code */
+a:hover { text-decoration:underline;} /* anchor (mouse over) Setup Code */
+input.text { padding:2px; height:19px; border:1px solid #cdcdcd;} /* input:text Setup Code */
+select.select { height:23px; border:1px solid #cdcdcd;} /* select element Setup Code */
+textarea.textarea { width:98%; border:1px solid #cdcdcd;} /* textarea.textarea Setup Code */
+.clearfix:after { content: "."; display: block; height: 0; overflow: hidden; clear: both;}
+.vtMiddle { vertical-align:middle;}
+
+/* skipToContent */
+#skipToContent a { position:absolute; top:0px; left:0px; z-index:9999; width:100%; height:1px; margin-top:-1px; display:block; 	background-color:#3875c1; font-size:14px; font-weight:bold; color:#fff; line-height:1; text-align:center; overflow:hidden;}
+#skipToContent a:focus,
+#skipToContent a:active { margin-top:0px; height:auto; padding:10px 0px;}
+
+/* 공통 - 컨덴츠 폰트페밀리 고정 */
+html * {font-family:'Nanum Gothic' !important;}
+html * select{font-family:'Nanum Gothic','나눔고딕' !important;}

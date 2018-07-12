@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*  
+silde 
+
+*/
+
+.carousel-item active{
+	height: 500px;
+	width: 1000px;
+}
+.carousel-item{
+	height: 500px;
+	width: 1000px;
+}
+.slide{
+	height: 500px;
+	width: 100%;
+}
+ #myCarousel{
+ 
+ width: 1000px;
+ margin-left: 450px;
+ 
+ }
+/**
+quick-navigation
+**/
+.quick-navigation { z-index:115; position: fixed; left:0; right:0; bottom: 0; height: 53px; border-top: 1px solid #3b414d; background-color: #464c58; box-sizing:border-box; }
+.quick-navigation .inner-wrap { clear:both; position: relative; min-width:1000px; max-width:1280px; margin:0 auto; }
+
+.iconset-quick { display: inline-block; overflow: hidden; position: relative; background: url('../img/quick/ico-quick.png') no-repeat 0 0; font-size: 0; line-height: 0; vertical-align: middle; }
+.icon-quick-toggle { width: 14px; height: 14px; background-position: 0 0}
+.icon-quick-menu01 { width: 20px; height: 20px; background-position: 0 -50px}
+.icon-quick-menu02 { width: 20px; height: 20px; background-position: -40px -50px}
+.icon-quick-menu03 { width: 20px; height: 18px; background-position: -80px -50px}
+.icon-quick-menu04 { width: 20px; height: 20px; background-position: -120px -50px}
+.icon-quick-menu05 { width: 16px; height: 20px; background-position: -160px -50px}
+.icon-quick-menu06 { width: 20px; height: 22px; background-position: 0px -78px}
+.icon-quick-menu07 { width: 20px; height: 22px; background-position: -40px -78px}
+.icon-quick-menu08 { width: 27px; height: 22px; background-position: -76px -78px}
+
+.quick-menu { margin-top: -1px; }
+.quick-menu-title { z-index: 2; float: left; width: 140px; }
+.quick-menu-title .button { display: block; width: 100%; height: 53px; margin: 0; padding: 0; background: #323641; color: #fff; font-size: 15px; line-height: 58px; }
+.quick-menu-title .button .iconset-quick { top: -1px; margin-right: 0; margin-left: 5px; }
+/*
+.quick-menu-title:hover .button { background: #3378c1; }
+.quick-menu-title:hover .icon-quick-toggle { background-position: 0 -20px; }
+*/
+
+.quick-menu-list { z-index: 1; padding-left: 141px; }
+.quick-menu-list ul { display: table; table-layout: fixed; width: 100%; box-sizing: border-box; }
+.quick-menu-list ul li { z-index: 1; display: table-cell; position: relative; box-sizing: border-box; }
+.quick-menu-list ul li .button { display: block; height: 53px; margin: 0 0 0 -1px; padding: 0; border-top: 1px solid #3b414d; border-left: 1px solid #3b414d; color: #fff; font-size: 15px; line-height: 53px; }
+.quick-menu-list ul li:first-child .button { border-left: 0; }
+.quick-menu-list ul li .button .iconset-quick { margin-right: 8px; }
+
+.quick-menu-list ul li.hover,
+.quick-menu-list ul li:hover { z-index: 2; }
+.quick-menu-list ul li.hover .button,
+.quick-menu-list ul li:hover .button { border-color: #3378c1; background: #3378c1; }
+
+.quick-navigation.quick-closed { height: 0; border: 0; background: none; }
+.quick-navigation.quick-closed .quick-menu-title { position: absolute; top: -32px; left: 0; }
+.quick-navigation.quick-closed .quick-menu-title .button { height: 33px; line-height: 38px; }
+.quick-navigation.quick-closed .quick-menu-title .icon-quick-toggle { background-position: -40px 0; }
+
+/*.quick-navigation.quick-closed .quick-menu-title:hover .icon-quick-toggle { background-position: -40px -20px; }*/
+.quick-navigation.quick-closed .quick-menu-list { display: none; }
