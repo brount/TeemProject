@@ -46,7 +46,9 @@
 		<h1>플젝명</h1>
 		<nav class="mainmenu">
 
-			<a href="#">로그인</a> <a href="#">회원가입</a> <a href="#">마이 페이지</a>
+			<a href="#" onclick="window.location='memberLogin'">로그인</a> <a href="#">회원가입</a> <a href="#" onclick="window.location='myPage'">마이 페이지</a>
+			
+			<a href="#" onclick="window.location='adminMenu'">관리자</a>
 		</nav>
 	</header>
 
@@ -65,7 +67,8 @@
         <ul class="navbar-nav mr-auto">
             <!-- Dropdown -->
             <li class="nav-item dropdown mega-dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">병원(검사) </a>
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+병원(검사) </a>
                 <div class="dropdown-menu mega-menu row z-depth-1" aria-labelledby="navbarDropdownMenuLink">
                     <div class="row">
                         <div class="col-md-5 col-xl-3 sub-menu mt-5 mb-5 pl-4">
@@ -239,7 +242,7 @@
                     <div class="row">
                         <div class="col-md-5 col-xl-3 sub-menu mt-5 mb-5 pl-4">
                             <ol class="list-unstyled mx-4 dark-grey-text">
-                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item" href="">병원 검색</a></li>
+                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item" onclick="window.location='hospitalSeach'">>병원 검색</a></li>
                                 <li class="sub-title text-uppercase"><a class="menu-item" href="">약국 검색</a></li>
                             
                             </ol>
@@ -408,11 +411,11 @@
                     <div class="row">
                         <div class="col-md-5 col-xl-3 sub-menu mt-5 mb-5 pl-4">
                             <ol class="list-unstyled mx-4 dark-grey-text">
-                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item" href="">날씨(보건기상지수)</a></li>
-                                <li class="sub-title text-uppercase"><a class="menu-item" href="">에방정보</a></li>
-                                <li class="sub-title text-uppercase"><a class="menu-item" href="">10대질병</a></li>
+                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item"  onclick="window.location='weatherList'">날씨(보건기상지수)</a></li>
+                                <li class="sub-title text-uppercase"><a class="menu-item" href="">예방정보</a></li>
+                                <li class="sub-title text-uppercase"><a class="menu-item" onclick="window.location='diseaseTop'">10대질병</a></li>
                                <li class="sub-title text-uppercase"><a class="menu-item" href="">간단진료</a></li>
-                           <li class="sub-title text-uppercase"><a class="menu-item" href="">약검색</a></li>
+                           <li class="sub-title text-uppercase"><a class="menu-item" onclick="window.location='drugSeach'">약검색</a></li>
                             
                             </ol>
                         </div>

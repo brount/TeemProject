@@ -37,18 +37,7 @@ public class CommonContoller {
 		System.out.println("memberClassify, 페이지");
 		return "common/memberClassify";
 	}
-	//일반회원가입정보입력페이지               
-	@RequestMapping(value = "memberShipForm")
-	public String memberShipForm(HttpServletRequest req, Model model) {
-		System.out.println("memberShipForm, 페이지");
-		return "common/memberShipForm";
-	}
-	//의사회원가입정보입력페이지              
-	@RequestMapping(value = "doctorShipForm")
-	public String doctorShipForm(HttpServletRequest req, Model model) {
-		System.out.println("doctorShipForm, 페이지");
-		return "common/doctorShipForm";
-	}
+	
 	//약관동의페이지               
 	@RequestMapping(value = "clauseAgree")
 	public String clauseAgree(HttpServletRequest req, Model model) {
@@ -144,6 +133,13 @@ public class CommonContoller {
 	public String eventInfo(HttpServletRequest req, Model model) {
 		System.out.println("eventInfo, 페이지");
 		return "common/eventInfo";
+	}	
+	
+	//마이페이지                      
+	@RequestMapping(value = "myPage")
+	public String myPage(HttpServletRequest req, Model model) {
+		System.out.println("myPage, 페이지");
+		return "common/myPage";
 	}	
 }
 

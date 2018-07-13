@@ -113,10 +113,10 @@ public class AdminContoller {
 		return "admin/requestList";
 	}
 	//광고신청목록페이지             
-	@RequestMapping(value = "eventList")
+	@RequestMapping(value = "eventRequestList")
 	public String eventList(HttpServletRequest req, Model model) {
-		System.out.println("eventList, 페이지");
-		return "admin/eventList";
+		System.out.println("eventRequestList, 페이지");
+		return "admin/eventRequestList";
 	}
 	//광고등록폼페이지             
 	@RequestMapping(value = "eventAdd")
@@ -135,5 +135,12 @@ public class AdminContoller {
 	public String cashList(HttpServletRequest req, Model model) {
 		System.out.println("cashList, 페이지");
 		return "admin/cashList";
+	}
+	
+	//관리자 메뉴            
+	@RequestMapping(value = "adminMenu")
+	public String adminMenu(HttpServletRequest req, Model model) {
+		System.out.println("adminMenu, 페이지");
+		return "admin/adminMenu";
 	}
 }	
