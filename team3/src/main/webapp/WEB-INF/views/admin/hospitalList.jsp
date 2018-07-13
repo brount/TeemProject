@@ -8,6 +8,7 @@
 </head>
 <body>
 	<center>
+	<jsp:include page="adminMenu.jsp"></jsp:include>
 	<img alt="제휴병원목록페이지" src="/medical/resources/images/admin/제휴병원목록.jpg"><br>
 	<input type="button" value="관리자메인" onclick="window.location='adminMenu'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<input type="button" value="다음" onclick="window.location='hospitalAddForm'">

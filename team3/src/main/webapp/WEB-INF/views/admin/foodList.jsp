@@ -8,6 +8,7 @@
 </head>
 <body>
 	<center>
+	<jsp:include page="adminMenu.jsp"></jsp:include>
 	<img alt="음식정보목록페이지" src="/medical/resources/images/admin/음식정보페이지.jpg"><br>
 	<input type="button" value="이전"onclick="history.back();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<input type="button" value="관리자메인" onclick="window.location='adminMenu'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
