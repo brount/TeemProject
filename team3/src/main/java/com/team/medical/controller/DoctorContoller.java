@@ -75,5 +75,10 @@ public class DoctorContoller {
 		System.out.println("examinationList, 페이지");
 		return "doctor/examinationList";
 	}
-	
+	//병원업무진행
+   @RequestMapping(value = "hospital")
+   public String hospital(HttpServletRequest req, Model model) {
+      System.out.println("hospital, 페이지");
+      return "doctor/hospital";
+   }
 }

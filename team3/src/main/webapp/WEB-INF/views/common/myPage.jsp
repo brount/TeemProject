@@ -10,9 +10,13 @@
 	<center>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<input type="button" value="회원탈퇴" onclick="window.location='passwordChek'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	
-
-
+	<input type="button" value="일반회원정보수정" onclick="window.location='guestModify'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="마이헬스" onclick="window.location='myHealth'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="즐겨찾는병원" onclick="window.location='bookMark'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<hr>
+	<input type="button" value="의사회원정보수정" onclick="window.location='doctorModify'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="마이병원" onclick="window.location='myHospital'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="point" onclick="window.location='pointManage'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </body>
 </html>

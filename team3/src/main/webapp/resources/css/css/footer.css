@@ -9,7 +9,7 @@
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 6px;
 	height:250px;
-	position:initial;
+	position:inherit;
 	bottom:0;
 	width:100%;
 }

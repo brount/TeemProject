@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<center>
+	<img alt="이벤트 목록페이지 " src="/medical/resources/images/common/이벤트 목록페이지.jpg"><br>
+	<input type="button" value="상세" onclick="window.location='eventInfo'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="메인" onclick="window.location='main'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+
+
 
 </body>
 </html>

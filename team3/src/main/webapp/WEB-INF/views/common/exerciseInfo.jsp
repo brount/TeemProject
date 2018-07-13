@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<center>
+	<img alt="운동정보페이지" src="/medical/resources/images/common/운동정보페이지.jpg"><br>
+	<input type="button" value="메인" onclick="window.location='main'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+
+
 
 </body>
 </html>

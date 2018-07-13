@@ -10,9 +10,6 @@
 	<center>
 	<img alt="10대질병정보페이지 " src="/medical/resources/images/common/날씨페이지.jpg"><br>
 	<input type="button" value="메인" onclick="window.location='main'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	
-
-
 
 </body>
 </html>
