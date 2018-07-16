@@ -9,7 +9,8 @@
 <body>
 	<center>
 	<img alt="약관동의페이지 " src="/medical/resources/images/common/약관동의페이지.jpg"><br>
-	<input type="button" value="동의합니다" onclick="window.location='memberCertify'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="동의합니다(일반)" onclick="window.location='guestShipForm'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="동의합니다(의사)" onclick="window.location='doctorShipForm'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<input type="button" value="동의하지 않습니다" onclick="window.location='main'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	
 
