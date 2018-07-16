@@ -24,7 +24,7 @@
 	<context:component-scan base-package="com.team.medical" />
 	<!-- mybatis 설정  -->
 	<beans:bean name="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
-		<beans:property name="jndiName" value="java:comp/env/jdbc/Oracle11g_jsp_p_hhs"/>
+		<beans:property name="jndiName" value="java:comp/env/jdbc/Oracle11g_team"/>
 		<beans:property name="resourceRef" value="true"/>
 	</beans:bean>
 	
