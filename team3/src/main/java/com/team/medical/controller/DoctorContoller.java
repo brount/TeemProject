@@ -81,4 +81,10 @@ public class DoctorContoller {
       System.out.println("hospital, 페이지");
       return "doctor/hospital";
    }
+   //마이페이지
+	@RequestMapping(value = "myDoctor")
+	public String myDoctor(HttpServletRequest req, Model model) {
+		System.out.println("myDoctor, 페이지");
+		return "doctor/myDoctor";
+	}
 }

@@ -9,7 +9,8 @@
    <header>
    <%@ include file="../common/header.jsp" %>
    </header>
-   <section>
+   
+   <section>   	
 		<div class="container">
 		    <div class="row">
 		        <div class="col-sm-3 col-md-3">
@@ -37,26 +38,40 @@
 		                </div>
 		            </div>
 		        </div>
-		           	
-			  		 <div class="col-sm-9 col-md-9">
-			            <div class="well">
-			                <h1> 이미지</h1>
-			                <hr>
-			                <h1>음식정보</h1>
-			                <hr>
-			                <h1>장점</h1>
-			                <hr>
-			                <h1>단점</h1>
-			                <hr>
-			                <h1>주의사항</h1>
-			            </div>
-			        </div>
-		  		
-		        
+	  		 	<div class="col-sm-9 col-md-9">
+		            <div class="well">
+			            <div class="container">
+					      <h1 class="my-4 text-center text-lg-left">운동 목록</h1>
+					
+					      <div class="row text-center text-lg-left">
+					
+					        <div class="col-lg-3 col-md-4 col-xs-6">
+					          <a href="exerciseInfo" class="d-block mb-4">
+					            <img class="img-fluid img-thumbnail" src="/medical/resources/images/cake.png" alt="">
+					          </a>
+					        </div>
+					        <div class="col-lg-3 col-md-4 col-xs-6">
+					          <a href="exerciseInfo" class="d-block mb-4">
+					            <img class="img-fluid img-thumbnail" src="/medical/resources/images/cabin.png" alt="">
+					          </a>
+					        </div>
+					        <div class="col-lg-3 col-md-4 col-xs-6">
+					          <a href="exerciseInfo" class="d-block mb-4">
+					            <img class="img-fluid img-thumbnail" src="/medical/resources/images/circus.png" alt="">
+					          </a>
+					        </div>
+					        <div class="col-lg-3 col-md-4 col-xs-6">
+					          <a href="exerciseInfo" class="d-block mb-4">
+					            <img class="img-fluid img-thumbnail" src="/medical/resources/images/game.png" alt="">
+					          </a>
+					        </div>					
+					      </div>					
+			        	</div>  
+		            </div>
+		        </div>		        
 		    </div>
-		</div>
-	</section> 
-   
+		</div> 
+   </section>
    <footer>
    <%@ include file="../common/footer.jsp" %>
    </footer>

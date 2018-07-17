@@ -92,18 +92,30 @@ public class CommonContoller {
 		System.out.println("drugInfo, 페이지");
 		return "common/drugInfo";
 	}
-	//운동정보페이지                       
+	//운동정보목록페이지                       
+	@RequestMapping(value = "exerciseInfoList")
+	public String exerciseList(HttpServletRequest req, Model model) {
+		System.out.println("exerciseInfoList, 페이지");
+		return "common/exerciseInfoList";
+	}
+	//운동정보상세페이지                       
 	@RequestMapping(value = "exerciseInfo")
 	public String exerciseInfo(HttpServletRequest req, Model model) {
 		System.out.println("exerciseInfo, 페이지");
 		return "common/exerciseInfo";
 	}
-	//음식정보페이지                        
+	//음식정보상세페이지                        
 	@RequestMapping(value = "foodInfo")
 	public String foodInfo(HttpServletRequest req, Model model) {
 		System.out.println("foodInfo, 페이지");
 		return "common/foodInfo";
-	}	
+	}
+	//음식정보목록페이지                        
+	@RequestMapping(value = "foodInfoList")
+	public String foodList(HttpServletRequest req, Model model) {
+		System.out.println("foodInfoList, 페이지");
+		return "common/foodInfoList";
+	}
 	//10대질병정보페이지                         
 	@RequestMapping(value = "diseaseTop")
 	public String diseaseTop(HttpServletRequest req, Model model) {
@@ -133,13 +145,6 @@ public class CommonContoller {
 	public String eventInfo(HttpServletRequest req, Model model) {
 		System.out.println("eventInfo, 페이지");
 		return "common/eventInfo";
-	}	
-	
-	//마이페이지                      
-	@RequestMapping(value = "myPage")
-	public String myPage(HttpServletRequest req, Model model) {
-		System.out.println("myPage, 페이지");
-		return "common/myPage";
-	}	
+	}
 }
 

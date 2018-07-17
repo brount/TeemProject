@@ -105,4 +105,10 @@ public class GuestContoller {
 		System.out.println("checkupRegister, 페이지");
 		return "guest/checkupRegister";
 	}
+	//마이페이지
+	@RequestMapping(value = "myGuest")
+	public String myGuest(HttpServletRequest req, Model model) {
+		System.out.println("myGuest, 페이지");
+		return "guest/myGuest";
+	}
 }

@@ -12,7 +12,7 @@
 <!-- /medical/resources/css/ -->
 <!-- Bootstrap core CSS -->
 <link href="/medical/resources/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <!-- Custom fonts for this template -->
 <link href="/medical/resources/css/vendor/font-awesome/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
@@ -44,7 +44,7 @@
 		<h1>플젝명</h1>
 		<nav class="mainmenu">
 
-			<a   onclick="window.location='memberLogin'">로그인</a> <a   onclick="window.location='memberClassify'">회원가입</a> <a   onclick="window.location='myPage'">마이 페이지</a><a   onclick="window.location='adminMenu'">관리자페이지</a>
+			<a   onclick="window.location='memberLogin'">로그인</a> <a   onclick="window.location='memberClassify'">회원가입</a> <a   onclick="window.location='myGuest'">마이 페이지</a><a   onclick="window.location='adminMenu'">관리자페이지</a>
 		</nav>
 	</header>
 
@@ -406,8 +406,8 @@
                     <div class="row">
                         <div class="col-md-5 col-xl-3 sub-menu mt-5 mb-5 pl-4">
                             <ol class="list-unstyled mx-4 dark-grey-text">
-                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item"   onclick="window.location='exerciseInfo'">운동정보</a></li>
-                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item"   onclick="window.location='foodInfo'">음식정보</a></li>
+                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item"   onclick="window.location='exerciseInfoList'">운동정보</a></li>
+                                <li class="sub-title text-uppercase mt-sm"><a class="menu-item"   onclick="window.location='foodInfoList'">음식정보</a></li>
                                 <li class="sub-title text-uppercase"><a class="menu-item"   onclick="window.location='personalCare'">개인건강관리</a></li>
                               
                             </ol>
