@@ -492,7 +492,7 @@
                         <div class="col-md-5 col-xl-3 sub-menu mt-5 mb-5 pl-4">
                             <ol class="list-unstyled mx-4 dark-grey-text">
                             
-                                <li class="sub-title text-uppercase"><a class="menu-item"onclick="window.location='BoardList'">질문게시판 </a></li>
+                                <li class="sub-title text-uppercase"><a class="menu-item"onclick="window.location='boardList'">질문게시판 </a></li>
                                 
                             
                             </ol>

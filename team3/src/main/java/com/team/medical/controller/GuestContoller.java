@@ -39,24 +39,14 @@ public class GuestContoller {
 		System.out.println("reserveList, 페이지");
 		return "guest/reserveList";
 	}	
-	//질문목록페이지                           
-	@RequestMapping(value = "BoardList")
-	public String BoardList(HttpServletRequest req, Model model) {
-		System.out.println("BoardList, 페이지");
-		return "guest/boardList";
-	}	
+	
 	//질문등록페이지                           
 	@RequestMapping(value = "boardAdd")
 	public String BoardAdd(HttpServletRequest req, Model model) {
 		System.out.println("BoardAdd, 페이지");
 		return "guest/boardAdd";
 	}	
-	//질문상세페이지                           
-	@RequestMapping(value = "boardInfo")
-	public String BoardInfo(HttpServletRequest req, Model model) {
-		System.out.println("BoardInfo, 페이지");
-		return "guest/boardInfo";
-	}	
+	
 	//예방내용페이지                           
 	@RequestMapping(value = "PreventionList")
 	public String PreventionList(HttpServletRequest req, Model model) {

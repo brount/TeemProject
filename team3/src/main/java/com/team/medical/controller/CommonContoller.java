@@ -146,5 +146,17 @@ public class CommonContoller {
 		System.out.println("eventInfo, 페이지");
 		return "common/eventInfo";
 	}
+	//질문목록페이지                           
+	@RequestMapping(value = "boardList")
+	public String BoardList(HttpServletRequest req, Model model) {
+		System.out.println("boardList, 페이지");
+		return "common/boardList";
+	}	
+	//질문상세페이지                           
+	@RequestMapping(value = "boardInfo")
+	public String BoardInfo(HttpServletRequest req, Model model) {
+		System.out.println("BoardInfo, 페이지");
+		return "common/boardInfo";
+	}	
 }
 
